@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>FsGles2</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Wael El Oraiby</Authors>
+    <Owners>Wael El Oraiby</Owners>
+    <Title>F# GLES2 binding</Title>
+    <Description>F# GLES2 Binding</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/fsprojects/FsGles2</PackageProjectUrl>
+    <Copyright>2015-2018 (c) Wael El Oraiby</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="FsGles2.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsMath3D" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>

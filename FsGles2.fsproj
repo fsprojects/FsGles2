@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <PackageId>FsGles2</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Wael El Oraiby</Authors>
     <Owners>Wael El Oraiby</Owners>
     <Title>F# GLES2 binding</Title>

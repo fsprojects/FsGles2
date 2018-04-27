@@ -314,9 +314,11 @@ type GLenum =
 [<AutoOpen>]
 [<System.Diagnostics.CodeAnalysis.SuppressMessage("NameConventions", "ValueIsUnused")>]
 module private Native = 
-    [<Literal>]
-    let DllName = @"libGLESv2.so"
-    
+#if WIN32
+    let [<Literal>] DllName = @"native/angle"
+#else
+    let [<Literal>] DllName = @"GLESv2"
+#endif
     [<Literal>]
     let MaxStrLength = 256
     
